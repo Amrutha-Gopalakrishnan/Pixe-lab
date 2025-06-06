@@ -1,0 +1,41 @@
+/* HeroSection.module.css */
+.heros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background: white;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111;
+}
+
+.content p {
+  margin: 1.5rem 0;
+  font-size: 1.25rem;
+  color: #444;
+}
+
+.cta {
+  background-color: #000;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.image img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
