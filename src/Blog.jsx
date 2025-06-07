@@ -53,7 +53,7 @@ export default function Blog() {
   return (
     <section className="bg-[#f9f9f9] px-6 py-12 md:px-24 text-gray-800 font-montserrat" id='blog' ref={ref}>
       <div className="text-center mb-12 relative w-fit mx-auto">
-        <h1 className="text-xl font-bold text-black tracking-wide uppercase">
+        <h1 className="text-xl font-bold mt-10 text-black tracking-wide uppercase">
           OUR BLOGS
         </h1>
         <motion.div

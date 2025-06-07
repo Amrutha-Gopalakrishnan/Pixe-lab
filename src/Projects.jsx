@@ -52,7 +52,7 @@ useEffect(() => {
       <div className="text-center mb-10">
        
        <div className="text-center mb-10 relative w-fit mx-auto" ref={ref}>
-  <h1 className="text-xl font-bold mt-10 text-black tracking-wide uppercase relative z-10">
+  <h1 className="text-xl font-bold mt-10 text-black tracking-wide uppercase">
     OUR PROJECTS
   </h1>
   <motion.div

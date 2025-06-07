@@ -96,7 +96,7 @@ export default function ConnectSection() {
 
   useEffect(() => {
     if (isInView) {
-      controls.start({ width: '50px', backgroundColor: '#3b82f6' });
+      controls.start({ width: '80px', backgroundColor: '#3b82f6' });
     } else {
       controls.start({ width: '0px', backgroundColor: '#00000000' });
     }
@@ -112,13 +112,14 @@ export default function ConnectSection() {
       <div className="flex flex-col flex-1 max-w-[500px] ms-50">
         {/* Heading */}
         <div className="relative inline-block mb-2">
-          <h1 className="text-sm font-semibold text-black uppercase tracking-wide relative z-10">
+          <h1 className="text-xl font-bold mt-10 text-black tracking-wide uppercase">
             Let’s Connect
           </h1>
           <motion.div
             animate={controls}
             transition={{ duration: 1 }}
-            className="h-[2px] absolute left-0 -bottom-1 rounded-full bg-blue-600"
+            className="h-[5px] absolute left-0 -bottom-1 rounded-full bg-blue-600"
+           
           />
         </div>
 
