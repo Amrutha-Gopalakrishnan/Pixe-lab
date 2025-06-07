@@ -278,7 +278,7 @@ const About = () => {
               bring your vision to life with a perfect blend of creativity, code, and
               customer care.
             </p>
-            <button className="mt-2 common hov text-white text-sm font-medium px-6 py-2 rounded-md transition flex items-center gap-2">
+            <button className="mt-2 common hov text-white text-sm font-medium px-6 py-2 rounded-md max-w-[200px] transition flex items-center gap-2">
               Learn More →
             </button>
           </div>

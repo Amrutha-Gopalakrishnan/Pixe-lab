@@ -3,7 +3,6 @@ import './index.css'
   import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Navbar from './Navbar'
 import Hero from './Hero'
 import About from './About'
 import Stats from './Stats'
@@ -22,7 +21,6 @@ useEffect(() => {
 
   return (
     <div>
-     <Navbar />
      <Hero />
      <About />
      <Stats />

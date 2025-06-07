@@ -108,7 +108,7 @@ useEffect(() => {
       </div>
 
       <div className="text-center mt-10">
-        <button className="common hov text-white text-sm font-semibold px-6 py-2 rounded  transition-colors duration-300">
+        <button className="common hov text-white text-sm font-semibold px-6 py-2 rounded max-w-[200px]  transition-colors duration-300">
           View all Works ↗
         </button>
       </div>

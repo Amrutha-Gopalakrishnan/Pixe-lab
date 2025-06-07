@@ -23,8 +23,8 @@ useEffect(() => {
 
 
   return (
-    <section className="bg-white py-12 px-6 md:px-16 lg:px-24 text-gray-800" id="testimonials" ref={ref} data-aos="fade-up">
-      <div className="text-center mb-12">
+    <section className="bg-white py-8 px-6 md:px-16 mt-10 lg:px-24  text-gray-800" id="testimonials" ref={ref} data-aos="fade-up">
+      <div className="text-center ">
         
 
 
